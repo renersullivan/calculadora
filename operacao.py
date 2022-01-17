@@ -1,4 +1,4 @@
-from calculadora.calc import Calculadora
+from calc import Calculadora
 from sair import Saida
 
 class Calc:
@@ -11,6 +11,7 @@ class Calc:
         / para divisão
         [S] para sair 
         :  ''')
+        
         if operation == '+' :
             Calculadora.soma()
          
